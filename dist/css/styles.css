@@ -1,0 +1,41 @@
+@media screen and (max-width: 600px) {
+  .hidemobile {
+    display: none;
+  }
+   .rowflexdisable {
+    flex-wrap: unset !important;
+  }
+  .card-header {
+    padding: .75rem 0.25rem;
+}
+}
+
+a.orange-back-link:hover {
+    border: 1px solid #f4511e;
+    color: #fff !important;
+    background: #f4511e !important;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 29px 0 rgba(0, 0, 0, 0.19);
+}
+
+.left-side-box a.orange-border-link, .left-side-box a.orange-back-link {
+    position: absolute;
+    left: 30px;
+    right: 0;
+    bottom: 30px;
+    max-width: 179px;
+    margin: 0;
+}
+
+/*a.orange-back-link {
+    text-align: center;
+    display: inline-block;
+    padding: 13px 20px;
+    border-radius: 25px;
+    color: #f4511e !important;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid #f4511e;
+    font-weight: 700;
+    background: transparent;
+}*/
