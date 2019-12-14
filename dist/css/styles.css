@@ -26,6 +26,16 @@ a.orange-back-link:hover {
     margin: 0;
 }
 
+.textGradient
+{
+    font-family:fantacy;
+    font-weight:500;
+    font-size:28px;
+    background: -webkit-linear-gradient( #9400A3,#F7853B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /*a.orange-back-link {
     text-align: center;
     display: inline-block;
