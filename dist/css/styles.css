@@ -17,6 +17,13 @@ a.orange-back-link:hover {
     box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 29px 0 rgba(0, 0, 0, 0.19);
 }
 
+a.orange-back-link1:hover {
+    border: 1px solid #f4511e;
+    color: #f4511e !important;
+    background: transparent !important;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 20px 29px 0 rgba(0, 0, 0, 0.19);
+}
+
 .left-side-box a.orange-border-link, .left-side-box a.orange-back-link {
     position: absolute;
     left: 30px;
@@ -34,6 +41,11 @@ a.orange-back-link:hover {
     background: -webkit-linear-gradient( #9400A3,#F7853B);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.group-padding7
+{
+    padding: 7px;
 }
 
 /*a.orange-back-link {
