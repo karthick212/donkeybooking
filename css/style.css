@@ -46,6 +46,7 @@
     background: #ecf0f5;
     position: absolute;
     width: -webkit-fill-available;
+    width: -moz-available;
  }
 .main-header {
 	position: relative;
