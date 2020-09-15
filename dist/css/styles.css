@@ -145,8 +145,6 @@ div[disabled]
     overflow-wrap: break-word;    
 }
 
-
-
 .notification {
   /*background-color: #555;*/
   /*color: white;*/
@@ -165,4 +163,28 @@ div[disabled]
   border-radius: 0%;
   background-color: red;
   color: white;
+}
+.error {
+  font-size: 14px;
+  font-weight: 500;
+  color: red;
+  float: right;
+}
+
+.success {
+  font-size: 14px;
+  font-weight: 500;
+  color: green;
+  float: right;
+}
+
+/*Material UI*/
+.MuiFormLabel-root {
+    color: rgba(0, 0, 0, 0.34);
+    padding: 0;
+    font-size: 0.9rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 100 !important;
+    line-height: 1;
+    letter-spacing: 0.00938em;
 }
