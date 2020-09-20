@@ -166,14 +166,14 @@ div[disabled]
 }
 .error {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   color: red;
   float: right;
 }
 
 .success {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   color: green;
   float: right;
 }
