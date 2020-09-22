@@ -164,6 +164,13 @@ div[disabled]
   background-color: red;
   color: white;
 }
+
+ @media (max-width: 991.98px)
+.app-header .app-header__logo > .header__pane {
+    display: none !important;
+}
+
+
 .error {
   font-size: 14px;
   font-weight: 400;
@@ -188,3 +195,4 @@ div[disabled]
     line-height: 1;
     letter-spacing: 0.00938em;
 }
+
