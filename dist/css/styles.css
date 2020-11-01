@@ -217,3 +217,18 @@ div[disabled]
     line-height: 1;
     letter-spacing: 0.00938em;
   }
+
+@media (max-width: 575.98px) {
+  .MuiInputBase-input {
+    font: inherit;
+    color: black !important;}
+ .MuiFormLabel-root {
+    color: black !important;
+    padding: 0;
+    font-size: 0.9rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 300 !important;
+    line-height: 1;
+    letter-spacing: 0.00938em;
+  }
+  }
